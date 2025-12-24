@@ -2,10 +2,6 @@
 
 Sistema web para gestão de contactos de alunos desenvolvido com Vanilla JavaScript, PHP e CSS.
 
-## 📋 Descrição
-
-Este projeto é um sistema de agenda de contactos desenvolvido para o curso CTESP de Sistemas Informáticos. Permite aos utilizadores pesquisar, adicionar e visualizar contactos de alunos através de uma interface web simples e intuitiva.
-
 ## ✨ Funcionalidades
 
 - **Pesquisa de Alunos**
@@ -38,7 +34,7 @@ Este projeto é um sistema de agenda de contactos desenvolvido para o curso CTES
 ## 📁 Estrutura do Projeto
 
 ```
-VanilaJS-Wesite/
+src/
 ├── index.html                    # Página principal
 ├── novo-contacto.html           # Formulário para adicionar contactos
 ├── novo-contacto.php            # Processamento de novos contactos
@@ -50,8 +46,7 @@ VanilaJS-Wesite/
 ├── scripts.js                   # Scripts JavaScript
 ├── contactos.txt                # Base de dados (arquivo de texto)
 ├── README.md                    # Este arquivo
-└── src/
-    └── trabalho-main/           # Versão do trabalho
+
 ```
 
 ## 🚀 Como Usar
@@ -63,21 +58,9 @@ VanilaJS-Wesite/
 
 ### Instalação
 
-1. Clone o repositório:
-```bash
-git clone https://github.com/marcelo-m7/VanilaJS-Wesite.git
-```
-
-2. Mova os arquivos para o diretório do seu servidor web:
+Mova os arquivos para o diretório do seu servidor web:
    - XAMPP: `C:/xampp/htdocs/`
    - WAMP: `C:/wamp/www/`
-
-3. Certifique-se de que o arquivo `contactos.txt` tem permissões de escrita
-
-4. Acesse através do navegador:
-```
-http://localhost/VanilaJS-Wesite/index.html
-```
 
 ## 📝 Uso
 
@@ -125,7 +108,3 @@ Exemplo:
 João Silva;joao.silva@example.com;a79433
 Maria Santos;maria.santos@example.com;a79434
 ```
-
-## 👨‍💻 Desenvolvedor
-
-**Marcelo Santos** 
